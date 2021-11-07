@@ -15,7 +15,7 @@
 - 개발 기간 : 2021-10-18 ~ 2021-10-29 (공휴일 포함)
 - 개발 인원 <br/>
  👨‍👧‍👦 **Front-End** 4명 : 김수민, 김용현, 박세연, 이나영 <br/>
- 👨‍👧‍👦 **Back-End** &nbsp;2명 : [이기용](https://github.com/leeky940926), [이정아](git repository 링크)
+ 👨‍👧‍👦 **Back-End** &nbsp;2명 : [이기용](https://github.com/leeky940926), [이정아](https://github.com/wjddk97)
 
 ## 🎬 프로젝트 구현 영상
 
@@ -42,6 +42,22 @@
 
 #### 이정아
 
+- 메인페이지 리스트 정렬
+  - 신간, 일간조회수, 누적조회수 총 3가지 구현
+
+- 카테고리 별 리스트와 정렬
+   - 정렬기준 최신/할인/대여
+   - 페이지네이션 구현
+- 검색 기능 구현
+  - 해당하는 키워드의 작가,책 리스트 반환
+- 상세페이지
+  - 책 정보,작가 정보 ,별점 반환
+  - 로그인 데코레이터를 사용하여
+유저만 별점을 남길 수 있게 적용,
+이미 유저가 해당 책에 별점을 남겼을 시
+update
+
+- 작가 정보와 연관 책 정보 반환
 
 
 ## ⌨ EndPoint
@@ -49,7 +65,11 @@
 - POST/acount/sign-in/kakao (카카오톡 회원가입 및 로그인)
 - POST/subscribe (구독 및 취소)
 - GET/subscribe/search (특정 키워드가 들어간 작가 및 책 검색)
-
+- GET/products/main (신간, 일간 베스트, 베스트셀러)
+- GET/products?menu=<menu_id>&category=<category_id> (카테고리 별 리스트)
+- GET/products/search?keyword=검색어 (검색 기능)
+- GET/products/<book_id> (책 상세페이지)
+- POST/products/<book_id> (별점 주기)
 
 
 ## ❗ Reference
