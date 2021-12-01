@@ -2,6 +2,28 @@
 
 - Korea Best E-Experience, RIDI! - 리디북스(Ridibooks) 사이트 클론.
 
+## 본인소개
+
+안녕하세요.
+
+위코드 25기 백엔드 개발자 이기용입니다.
+
+해당 Git Repository는 위코드 부트캠프 2차 프로젝트 웹 사이트 리디북스를 모티브로한 프로젝트가 담겨져 있습니다.
+
+이번 과정에서 제가 맡은 역할은
+
+프로젝트 PM
+카카오 소셜 로그인
+구독 추가 및 취소
+검색
+AWS EC2 & RDS 배포
+faker 라이브러리를 이용한 데이터 생성 및 데이터베이스 관리
+입니다.
+
+아래엔 팀 소개 및 구현에 대한 추가 설명 등이 작성되어 있습니다.
+
+읽어주셔서 감사합니다.
+
 ## 🎇 팀명 : RIDIBOOKSLBOOKSL - 리디북슬북슬
 
 ![Ridibooksl LOGO](https://user-images.githubusercontent.com/88086271/139569924-7a5e2f69-0190-44e6-b3f8-118a25272992.png)
